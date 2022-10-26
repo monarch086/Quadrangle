@@ -18,29 +18,6 @@ namespace Quadrangle.UI
 
                 throw;
             }
-
-            // return new Point[]
-            // {
-                //new Point(-1, 1),
-                //new Point(1, 1),
-                //new Point(1, -1),
-                //new Point(-1, -1)
-
-                //new Point(0, 0),
-                //new Point(0, 10),
-                //new Point(10, 10),
-                //new Point(10, 0)
-
-                //new Point(0, 0),
-                //new Point(0, 10),
-                //new Point(1, 1),
-                //new Point(10, 1)
-
-                //new Point(0, 0),
-                //new Point(0, 10),
-                //new Point(1, -1),
-                //new Point(10, 1)
-            // };
         }
 
         private Point parseLine(string line)
