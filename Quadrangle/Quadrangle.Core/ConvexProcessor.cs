@@ -28,7 +28,7 @@
             return true;
         }
 
-        public static Point[] GetEdge(Point[] points, int offset)
+        private Point[] GetEdge(Point[] points, int offset)
         {
             var edge = new Point[2];
 
@@ -39,7 +39,7 @@
         }
 
         // cross product of two vectors
-        static int CrossProduct(Point[] vectorA, Point[] vectorB)
+        private int CrossProduct(Point[] vectorA, Point[] vectorB)
         {
             int X1 = (vectorA[1].X - vectorA[0].X);
             int Y1 = (vectorA[1].Y - vectorA[0].Y);

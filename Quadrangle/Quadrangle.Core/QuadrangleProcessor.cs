@@ -43,7 +43,7 @@
         private Orientation getOrientation(Point p, Point q, Point r)
         {
             var val = (q.Y - p.Y) * (r.X - q.X) -
-                    (q.X - p.X) * (r.Y - q.Y);
+                      (q.X - p.X) * (r.Y - q.Y);
 
             if (val == 0) return Orientation.Collinear;
 
