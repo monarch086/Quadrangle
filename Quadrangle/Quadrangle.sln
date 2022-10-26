@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrangle.Core", "Quadrangle.Core\Quadrangle.Core.csproj", "{A6810010-7AF9-40B1-B70E-63101EADDA79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quadrangle.UI", "Quadrangle.UI\Quadrangle.UI.csproj", "{C69DD107-2568-49A5-97E7-3FD8DED08947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6810010-7AF9-40B1-B70E-63101EADDA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6810010-7AF9-40B1-B70E-63101EADDA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6810010-7AF9-40B1-B70E-63101EADDA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6810010-7AF9-40B1-B70E-63101EADDA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69DD107-2568-49A5-97E7-3FD8DED08947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69DD107-2568-49A5-97E7-3FD8DED08947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69DD107-2568-49A5-97E7-3FD8DED08947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69DD107-2568-49A5-97E7-3FD8DED08947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {031FDB67-3566-4F67-A813-36A7660938D1}
+	EndGlobalSection
+EndGlobal
